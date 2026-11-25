@@ -1,0 +1,27 @@
+/*
+Name        : Nikhil Shee
+Roll Number : 101
+Batch       : F2
+Semester    : 1
+Experiment  : 4
+Program     : Compute and print the factorial of a given number
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    int i, fact = 1, n;
+
+    printf("Enter the number = ");
+    scanf("%d", &n);
+
+    for (i = 1; i <= n; i++)
+    {
+        fact *= i;
+    }
+
+    printf("Factorial of %d = %d", n, fact);
+
+    return 0;
+}
