@@ -1,1 +1,29 @@
+/*
+Name        : Nikhil Shee
+Roll Number : 101
+Batch       : F2
+Semester    : 1
+Experiment  : 1
+Topic       : Overview of GCC Compiler
 
+GCC (GNU Compiler Collection) is a collection of
+compilers used to compile programs written in
+languages such as C, C++ and others.
+
+For C programming, the GCC compiler converts the
+C source code into machine code and produces
+an executable file.
+
+The basic command to compile a C program is:
+
+gcc program.c
+
+It creates an executable file named a.out by
+default. The program can be executed using:
+
+./a.out
+
+Example:
+gcc hello.c
+./a.out
+*/
